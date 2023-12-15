@@ -1,0 +1,257 @@
+[
+    {
+        "id": 1,
+        "nombre": "Samsung Galaxy S23 FE",
+        "precio": "u$d 560",
+        "categoria": "Celulares",
+        "subCategoria": "Galaxy S",
+        "ImgMiniatura": "../../assets/imgs/celus/s23mini.avif",
+        "Imagenes": [
+            "../../assets/s23fe1.webp",
+            "../../assets/s23fe2.webp",
+            "../../assets/s23fe3.webp",
+            "../../assets/s23fe4.webp"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Samsung Galaxy S23",
+        "precio": "u$d 700",
+        "categoria": "Celulares",
+        "subCategoria": "Galaxy S",
+        "ImgMiniatura": "../../assets/imgs/celus/s23mini.avif",
+        "Imagenes": [
+            "../../assets/imgs/celus/s231.png",
+            "../../assets/imgs/celus/s232.png"]},
+    {
+        "id": 3,
+        "nombre": "Samsung Galaxy S22+",
+        "precio": "u$d 630",
+        "categoria": "Celulares",
+        "subCategoria": "Galaxy S",
+        "ImgMiniatura": "../../assets/imgs/celus/S22+mini.avif",
+        "Imagenes": [
+            "../../assets/igms/celus/S22+1.avif",
+            "../../assets/imgs/celus/S22+2.avif"]},
+    {
+        "id": 4,
+        "nombre": "Samsung Galaxy Z Fold 5 5G",
+        "precio": "u$d 1100",
+        "categoria": "Celulares",
+        "subCategoria": "Galaxy Z",
+        "ImgMiniatura": "../../assets/imgs/celus/ZFold5mini.avif",
+        "Imagenes": [
+            "../../assets/imgs/celus/ZFold51.avif",
+            "../../assets/imgs/celus/ZFold52.avif",
+            "../../assets/imgs/celus/ZFold53.avif"]},
+    {
+        "id": 5,
+        "nombre": "Samsung Galaxy Z Flip 5 5G",
+        "precio": "u$d 800",
+        "categoria": "Celulares",
+        "subCategoria": "Galaxy Z",
+        "ImgMiniatura": "../../assets/imgs/celus/ZFlip5mini.avif",
+        "Imagenes": [
+            "../../assets/imgs/celus/ZFlip51.avif",
+            "../../assets/imgs/celus/ZFlip52.avif"]},
+    {
+        "id": 6,
+        "nombre": "Samsung Galaxy A04e",
+        "precio": "u$d 70",
+        "categoria": "Celulares",
+        "subCategoria": "Galaxy A",
+        "ImgMiniatura": "../../assets/imgs/celus/a04emini",
+        "Imagenes": [
+            "../../assets/imgs/celus/a04e1.avif",
+            "../../assets/imgs/celus/a04e2.avif",
+            "../../assets/imgs/celus/a04e3.avif"]},
+    {
+        "id": 7,
+        "nombre": "Samsung Galaxy A03 Core",
+        "precio": "u$d 50",
+        "categoria": "Celulares",
+        "subCategoria": "Galaxy A",
+        "ImgMiniatura": "../../assets/imgs/celus/A03Coremini.avif",
+        "Imagenes": [
+            "../../assets/imgs/celus/a03Core1.avif",
+            "../../assets/imgs/celus/a03Core2.avif",
+            "../../assets/imgs/celus/a03Core3.avif"]},
+    {
+        "id": 8,
+        "nombre": "Samsung Galaxy A04s",
+        "precio": "u$d 110",
+        "categoria": "Celulares",
+        "subCategoria": "Galaxy A",
+        "ImgMiniatura": "../../assets/imgs/celus/A04smini.avif",
+        "Imagenes": [
+            "../../assets/imgs/celus/a04s1.avif",
+            "../../assets/imgs/celus/a04s2.avif",
+            "../../assets/imgs/celus/a04s3.avif"]}
+    ,
+    {
+        "id": 9,
+        "nombre": "Samsung Galaxy Tab A9+",
+        "precio": "u$d 350",
+        "categoria": "Tablets",
+        "subCategoria": "Galaxy Tab A",
+        "ImgMiniatura": "../../assets/imgs/tablets/tabA9+mini.jpg",
+        "Imagenes": [
+            "../../assets/imgs/tablets/tabA9+1.webp"]}
+    ,
+    {
+        "id": 10,
+        "nombre": "Samsung Galaxy Tab A8",
+        "precio": "u$d 210",
+        "categoria": "Tablets",
+        "subCategoria": "Galaxy Tab A",
+        "ImgMiniatura": "../../assets/imgs/tablets/tabA8mini.avif",
+        "Imagenes": [
+            "../../assets/imgs/tablets/tabA81.avif",
+            "../../assets/imgs/tablets/tabA82.avif"]}
+    ,
+    {
+        "id": 11,
+        "nombre": "Samsung Galaxy Tab A9",
+        "precio": "u$d 240",
+        "categoria": "Tablets",
+        "subCategoria": "Galaxy Tab A",
+        "ImgMiniatura": "../../assets/imgs/tablets/tabA9mini.webp",
+        "Imagenes": [
+            "../../assets/imgs/tablets/tabA91.webp"]}
+    ,
+    {
+        "id": 12,
+        "nombre": "Samsung Galaxy Tab S9 FE",
+        "precio": "u$d 470",
+        "categoria": "Tablets",
+        "subCategoria": "Galaxy Tab A",
+        "ImgMiniatura": "../../assets/imgs/tablets/tabS9FEmini.webp",
+        "Imagenes": [
+            "../../assets/imgs/tablets/tabS9FEmini.webp"]}
+    ,
+    {
+        "id": 13,
+        "nombre": "Samsung Galaxy Tab S9 FE+",
+        "precio": "u$d 550",
+        "categoria": "Tablets",
+        "subCategoria": "Galaxy Tab A",
+        "ImgMiniatura": "../../assets/imgs/tablets/tabS9FE+mini.avif",
+        "Imagenes": [
+            "../../assets/imgs/tablets/tabS9FE+1.avif",
+            "../../assets/imgs/tablets/tabS9FE+2.avif"]}
+    ,
+    {
+        "id": 14,
+        "nombre": "Samsung Galaxy Tab S9+",
+        "precio": "u$d 870",
+        "categoria": "Tablets",
+        "subCategoria": "Galaxy Tab A",
+        "ImgMiniatura": "../../assets/imgs/tablets/tabS9FEmini.webp",
+        "Imagenes": [
+            "../../assets/imgs/tablets/tabS9+1.avif",
+            "../../assets/imgs/tablets/tabS9+2.avif",
+            "../../assets/imgs/tablets/tabS9+3.avif"]}
+    ,
+    {
+        "id": 15,
+        "nombre": "Samsung Galaxy Watch 6 Classic",
+        "precio": "u$d 300",
+        "categoria": "Relojes",
+        "ImgMiniatura": "../../assets/imgs/relojes/watch6ClassicMini.avif",
+        "Imagenes": [
+            "../../assets/imgs/relojes/watch6Classic1.avif",
+            "../../assets/imgs/relojes/watch6Classic2.avif"]}
+    ,
+    {
+        "id": 16,
+        "nombre": "Samsung Galaxy Watch 6",
+        "precio": "u$d 420",
+        "categoria": "Relojes",
+        "ImgMiniatura": "../../assets/imgs/relojes/watch6Mini.avif",
+        "Imagenes": [
+            "../../assets/imgs/relojes/watch61.avif",
+            "../../assets/imgs/relojes/watch62.avif"]}
+    ,
+    {
+        "id": 17,
+        "nombre": "Samsung Galaxy Book 3",
+        "precio": "u$d 650",
+        "categoria": "Notebooks",
+        "ImgMiniatura": "../../assets/imgs/notebooks/Galaxy Book 3.webp",
+        "Imagenes": [
+            "../../assets/imgs/notebooks/Book31.avif",
+            "../../assets/imgs/notebooks/Book32.avif",
+            "../../assets/imgs/notebooks/Book33.avif",
+            "../../assets/imgs/notebooks/Book34.avif"
+        ]
+    }
+    ,
+    {
+        "id": 18,
+        "nombre": "Samsung Galaxy Book 3 Pro 360",
+        "precio": "u$d 950",
+        "categoria": "Notebooks",
+        "ImgMiniatura": "../../assets/imgs/notebooks/Galaxy Book 3 Pro 360.avif",
+        "Imagenes": [
+            "../../assets/imgs/notebooks/Book3Pro3601.avif",
+            "../../assets/imgs/notebooks/Book3Pro3602.avif",
+            "../../assets/imgs/notebooks/Book3Pro3603.avif",
+            "../../assets/imgs/notebooks/Book3Pro3604.avif"
+        ]
+    }
+    ,
+    {
+        "id": 19,
+        "nombre": "Samsung Galaxy Book 3 Pro",
+        "precio": "u$d 770",
+        "categoria": "Notebooks",
+        "ImgMiniatura": "../../assets/imgs/notebooks/Galaxy Book 3 Pro.avif",
+        "Imagenes": [
+            "../../assets/imgs/notebooks/Book3Pro1.avif",
+            "../../assets/imgs/notebooks/Book3Pro2.avif",
+            "../../assets/imgs/notebooks/Book3Pro3.avif",
+            "../../assets/imgs/notebooks/Book3Pro4.avif"
+        ]
+    }
+
+    ,
+    {
+        "id": 20,
+        "nombre": "65'' Crystal UHD BU8000",
+        "precio": "u$d 630",
+        "categoria": "TV",
+        "ImgMiniatura": "../../assets/imgs/TV/crystal uhd 65.avif",
+        "Imagenes": [
+            "../../assets/imgs/TV/crystal uhd 651.avif",
+            "../../assets/imgs/TV/crystal uhd 652.avif"]}
+    ,
+    {
+        "id": 21,
+        "nombre": "55'' UHD 4k SmartTV",
+        "precio": "u$d 410",
+        "categoria": "TV",
+        "ImgMiniatura": "../../assets/imgs/TV/55 4K LED.avif",
+        "Imagenes": [
+            "../../assets/imgs/TV/55 4K LED1.avif",
+            "../../assets/imgs/TV/55 4K LED2.avif"]}
+    ,
+    {
+        "id": 22,
+        "nombre": "85'' Neo QLED 8K",
+        "precio": "u$d 1200",
+        "categoria": "TV",
+        "ImgMiniatura": "../../assets/imgs/TV/NEO QLED 8K 85.avif",
+        "Imagenes": [
+            "../../assets/imgs/TV/NEO QLED 8K 851.avif"]}
+    ,
+    {
+        "id": 23,
+        "nombre": "43'' Neo QLED TV Gamer",
+        "precio": "u$d 680",
+        "categoria": "TV",
+        "ImgMiniatura": "../../assets/imgs/TV/TVfornite.avif",
+        "Imagenes": [
+            "../../assets/imgs/TV/TVfornite1.avif",
+            "../../assets/imgs/TV/TVfornite2.avif",
+            "../../assets/imgs/TV/TVfornite3.avif"]}
+]
