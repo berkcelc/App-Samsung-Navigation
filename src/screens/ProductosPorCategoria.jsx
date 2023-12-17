@@ -4,16 +4,16 @@ import Productos from '../data/Productos.json'
 import Tarjeta from '../components/Tarjeta'
 import { colores } from '../global/colores'
 
-const ProductosPorCategoria = ({ Navegacion, route }) => {
+const ProductosPorCategoria = ({ route }) => {
     const [productosPorCategoria, setProductosPorCategoria] = useState([])
-    const {categoria} = route.params
+    const {item} = route.params
 
     useEffect(() => {
-      const productosFiltrados = Productos.filter(producto => producto.categoria === categoria)
-      setProductosPorCategoria(productosFiltrados)}, [categoria])
+      const productosFiltrados = Productos.filter(producto => producto.categoria === item)
+      setProductosPorCategoria(productosFiltrados)}, [item])
 
-    const mostrarProductos = ({ item }) => {
-      return <Tarjeta producto={item} Navegacion={Navegacion} />;
+    const mostrarProductos = ({ item, navigation }) => {
+      return <Tarjeta producto={item} />;
     };
     
 

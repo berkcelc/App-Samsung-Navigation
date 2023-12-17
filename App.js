@@ -7,5 +7,3 @@ export default function App() {
     'Quicksand-Regular': require('./assets/Quicksand-Regular.ttf'),
     'Quicksand-Bold': require('./assets/Quicksand-Bold.ttf')})
   return ( <Navegation/> )}
-
-

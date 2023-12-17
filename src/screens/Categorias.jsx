@@ -2,10 +2,10 @@ import { FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native
 import {colores} from '../global/colores'
 import CategoriasData from '../data/CategoriasData.json'
 
-const Categorias = ({Categorias,Navegacion}) => {
+const Categorias = ({ navigation}) => {
 
   const mostrarCategorias = ({item}) => (
-    <TouchableOpacity Navegacion={Navegacion} Categorias={item} style={styles.BotonCategoria} onPress={() => Navegacion.navigate("Productos", {Categorias})}>
+    <TouchableOpacity Categorias={item} style={styles.BotonCategoria} onPress={() => navigation.navigate("Productos", {item})}>
       <Text style={styles.BotonCategoriaTexto}>{item}</Text> 
     </TouchableOpacity>
   )
