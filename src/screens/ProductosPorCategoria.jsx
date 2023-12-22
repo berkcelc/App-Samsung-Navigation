@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colores.Lila,
+    backgroundColor: colores.Fondo,
     width: '100%',
     height: '100%'
   },

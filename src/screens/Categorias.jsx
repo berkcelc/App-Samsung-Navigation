@@ -1,11 +1,16 @@
 import { FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import {colores} from '../global/colores'
-import CategoriasData from '../data/CategoriasData.json'
+import { setCategoriaSeleccionada } from '../reducer/favsSlice'
+import { useDispatch, useSelector } from 'react-redux'
 
-const Categorias = ({ navigation}) => {
+const Categorias = ({navigation}) => {
+
+  const dispatch = useDispatch()
+  const categorias = useSelector((state)=>state.favsSlice.categorias)
 
   const mostrarCategorias = ({item}) => (
-    <TouchableOpacity Categorias={item} style={styles.BotonCategoria} onPress={() => navigation.navigate("Productos", {item})}>
+    <TouchableOpacity Categorias={item} style={styles.BotonCategoria} onPress={() => { navigation.navigate("Productos", {item})
+    dispatch(setCategoriaSeleccionada(item))}}>
       <Text style={styles.BotonCategoriaTexto}>{item}</Text> 
     </TouchableOpacity>
   )
@@ -16,7 +21,7 @@ const Categorias = ({ navigation}) => {
       <FlatList 
       renderItem={mostrarCategorias}
       keyExtractor={(item) => item}
-      data={CategoriasData}/>
+      data={categorias}/>
     </View>
   )
 }
@@ -29,12 +34,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     alignContent: 'center',
-    height: '100%'
+    height: '100%',
+    backgroundColor: colores.Fondo
   },
   CategoriasTitulo: {
     color: colores.Lily,
     fontSize: 30,
-    fontFamily: 'Quicksand-Light',
+    fontFamily: 'Quicksand-Bold',
     marginTop: 30
   },
   BotonCategoria: {
@@ -45,7 +51,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   BotonCategoriaTexto: {
-    fontFamily: 'Quicksand-Regular',
+    fontFamily: 'Quicksand-Bold',
     fontSize: 24,
     color: colores.Fucsia
   }

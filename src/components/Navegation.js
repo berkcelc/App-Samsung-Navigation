@@ -1,36 +1,60 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { NavigationContainer } from '@react-navigation/native';
 import { StyleSheet } from 'react-native'
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import  {colores}  from '../global/colores'
-import Categorias from '../screens/Categorias'
-import ProductosPorCategoria from '../screens/ProductosPorCategoria'
-import DetalleProducto from '../screens/DetalleProducto'
+import ProductosNavegation from './ProductosNavegation'
+import MisFavoritos from '../screens/MisFavoritos';
+import Buscador from '../screens/Buscador';
+import { AntDesign } from '@expo/vector-icons'; 
+import { MaterialCommunityIcons } from '@expo/vector-icons'
+import { FontAwesome } from '@expo/vector-icons'
 
-
-const Stack = createNativeStackNavigator()
+const Tab = createBottomTabNavigator()
 
 const Navegation = () => {
   return (
-    <NavigationContainer>
-        <Stack.Navigator initialRouteName='Categorías' screenOptions={({ route}) => ({
-          header: () => null })}>
-            <Stack.Screen name='Categorías' component={Categorias}/>
-            <Stack.Screen name='Productos' component={ProductosPorCategoria}/>
-            <Stack.Screen name='Detalle del Producto' component={DetalleProducto}/>
-        </Stack.Navigator>
-    </NavigationContainer>
-  )}
+      <NavigationContainer>
+        <Tab.Navigator 
+        screenOptions={{
+          headerShown: false,
+          tabBarShowLabel: false,
+          tabBarStyle: styles.BarraNavegacion}}>
+            <Tab.Screen 
+            name='StackProductos'
+            component={ProductosNavegation}
+            options={{
+              tabBarIcon: () => (
+                <MaterialCommunityIcons name="cellphone-link" size={24} color={colores.Fucsia} />
+              )
+          }}/>
+              <Tab.Screen 
+            name='Mis Favoritos'
+            component={MisFavoritos}
+            options={{
+              tabBarIcon: () => (
+                <AntDesign name="staro" size={24} color={colores.Fucsia} />
+              )
+          }}/>
+              <Tab.Screen 
+            name='Buscador'
+            component={Buscador}
+            options={{
+              tabBarIcon: () => (
+                <FontAwesome name="search" size={24} color={colores.Fucsia} />
+              )
+          }}/>
+          </Tab.Navigator>
+      </NavigationContainer> )}
 
 export default Navegation
 
 const styles = StyleSheet.create({
-    NavegationContainer: {
+    BarraNavegacion: {
         bottom: 0,
         left: 0,
         right: 0,
         height: 40,
         position: 'absolute',
-        justifyContent: 'flex-end',
-        alignItems: 'center',
-        backgroundColor: colores.Fucsia}
+        justifyContent: 'space-around',
+        backgroundColor: colores.Fondo}
 })

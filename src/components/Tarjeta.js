@@ -6,7 +6,7 @@ const Tarjeta = ({ producto, navigation, item  }) => {
   return (
   
     <TouchableOpacity style={styles.TarjetaContainer} onPress={() => navigation.navigate("Detalle del Producto", {item: producto})} >
-      {/* <Image style={styles.TarjetaImagen}source={{ uri: producto.ImgMiniatura }}/> */}
+     {/* <Image style={styles.TarjetaImagen} source={require(`../../assets/imgs/${producto.ImgMiniatura}`)} />  */}
       <Text style={styles.TarjetaTitulo}>{producto.nombre}</Text>
       <Text style={styles.TarjetaTexto}>{producto.precio}</Text>
       </TouchableOpacity>
